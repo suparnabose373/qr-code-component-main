@@ -1,0 +1,40 @@
+.qr-popup-container {
+    background: #fff;
+    text-align: center;
+    padding: 12px 12px 40px;
+    border-radius: 3%;
+    width: 280px;
+
+    .qrScanner {
+        width: 280px;
+        height: 280px;
+        border-radius: 5%;
+    }
+
+    .qr-popup-content {
+        padding: 0px 15px;
+    }
+
+    .qr-popup-header {
+        font-weight: 600;
+        font-size: 20px;
+        padding: 15px 0px;
+    }
+    
+    .qr-popup-body {
+        font-weight: 100;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .qr-popup-container {
+        width: 70vw;
+        overflow: hidden;
+    }
+
+    .qrScanner {
+        width: 70vw !important;
+        height: 70vw !important;
+    }
+}
