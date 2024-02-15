@@ -1,0 +1,9 @@
+body {
+  display: flex;
+  justify-content: center; 
+  font-family: Calibri;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #D3DFED;
+}
